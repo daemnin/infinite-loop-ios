@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div>
+    @if (string.IsNullOrEmpty(ViewData["AccessToken"].ToString()))
+    {
+        <h2>@ViewData["Message"]</h2>
+    }
+    else
+    {
+        <h2>Authentication Header</h2>
+        <p>@ViewData["AccessToken"]</p>
+    }
+</div>
