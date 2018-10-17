@@ -24,6 +24,7 @@ For this project to run you'll need to register two apps on your AAD instance. I
     - Click on the website registration then go to *Settings > Reply Urls*
     - Add the url to your application and the signin-oidc endpoint. 
     ![Reply Urls](images/reply_urls.png)
+    
     **The url should match your application host**.
 9. Link the website to the API.
     - Click on the website registration then go to *Settings > Required Permissions*.
