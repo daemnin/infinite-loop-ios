@@ -1,6 +1,6 @@
 # Minimal repository
 
-In this repository you'll find a demostration of the issue described [here](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/issues/) for the [ADAL.NET](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet) project.
+In this repository you'll find a demostration of the issue described [here](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet/issues/1329) for the [ADAL.NET](https://github.com/AzureAD/azure-activedirectory-library-for-dotnet) project.
 
 ## How to configure AAD
 
@@ -24,7 +24,7 @@ For this project to run you'll need to register two apps on your AAD instance. I
     - Click on the website registration then go to *Settings > Reply Urls*
     - Add the url to your application and the signin-oidc endpoint. 
     ![Reply Urls](images/reply_urls.png)
-    
+
     **The url should match your application host**.
 9. Link the website to the API.
     - Click on the website registration then go to *Settings > Required Permissions*.
